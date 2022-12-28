@@ -1,0 +1,39 @@
+Memories Application :
+As the name suggest it is an album of memories where people from all over the world
+can add the most notable places they visited or the wildest things they have done
+
+Features of the applications are :
+1.Pagination : allows you to only fetch a certain number of memories at a time
+2. Complete search and filtering funtionality
+3.Searching tag : ex europe ,the or serach a part of a title . then get all the matching memories
+  Authetication is a complex process . we are doing login and register ,
+  used json web tokens or jwts and google oautj
+
+
+
+4.Adding comment :refactor the entire user interface and make our app completely mobile friendly 
+
+
+Techstack : MERN 
+MongoDB : Mongodb is a noSQL database in which data is stored in documents that cososit of key-value pairs ,
+stored in documents that consist of key-value pairs ,similar to json 
+
+Express: Helps us build the backend qyuckly while staying in the Javascript ecosystem.
+
+React : React is frontend javascript library.
+
+Node : Node.js is a runtime envirnment allows us to write backend code using Javascript ultimately saving you 
+the trouble of learning a new programming language capable of running the backend
+
+
+Setup-
+1.split terminal
+2.crete 2 folder(cleint ,server) 
+Client :
+1.commands: npx create-react-app ./
+2.create index,js (satrting point of application)
+
+
+Server :
+command: npm init -y    //initilize empty package.json file
+npm install body parser cors express mongoose
