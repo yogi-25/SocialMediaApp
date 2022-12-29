@@ -37,3 +37,6 @@ Client :
 Server :
 command: npm init -y    //initilize empty package.json file
 npm install body parser cors express mongoose
+
+ 
+In the server create folder routes ->posts.js -it contain all routes
