@@ -36,7 +36,11 @@ Client :
 
 Server :
 command: npm init -y    //initilize empty package.json file
-npm install body parser cors express mongoose
+npm install body parser cors express mongoose 
 
- 
-In the server create folder routes ->posts.js -it contain all routes
+- create database connection on server side index.js
+- create folder routes ->posts.js -it contain all routes 
+--check browser running on port 5000--
+-create controller folder . it handles the route .we write logic here . 
+
+c/posts.js  - create our own function which handle the logic of specific route 
